@@ -1,0 +1,152 @@
+.my {
+  height: 90vh;
+  background: linear-gradient(180deg, #e6f1f3 0%, #ffffff 100%);
+  // padding-top: 49px;
+  .my_name_outbtn {
+    display: flex;
+    background: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    margin-bottom: 30px;
+    .my_name_outbtn_text {
+      flex: 1;
+      font-size: 24px;
+      font-weight: 600;
+      color: #111111;
+    }
+    .my_name_outbtn_btn {
+      height: 30px;
+      border-radius: 30px;
+      border: 1px solid #cbd5d5;
+      font-size: 13px;
+      font-weight: 400;
+      color: #888888;
+      line-height: 30px;
+      background: 0;
+    }
+  }
+  .my_information {
+    margin: 0 auto;
+    width: 343px;
+    height: 142px;
+    position: relative;
+    .my_information_avatar {
+      width: 56px;
+      height: 56px;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      position: absolute;
+      left: 16px;
+      top: -28px;
+      z-index: 10;
+    }
+    .my_information_two {
+      margin: 0 auto;
+      width: 343px;
+      height: 142px;
+      background: #ffffff;
+      border-radius: 10px;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+
+      .my_information_blackbg {
+        position: absolute;
+        right: 0;
+        top: 0px;
+        width: 80%;
+        height: 5px;
+        background: #353f4b;
+      }
+      .my_information_user_name {
+        font-size: 19px;
+        font-weight: 66600;
+        color: #111111;
+        margin-left: 16px;
+        margin-top: 41px;
+        margin-bottom: 10px;
+      }
+      .my_information_data {
+        margin: 0 16px;
+        flex: 1;
+        display: flex;
+        .my_information_data_left {
+          flex: 1;
+          .my_information_data_left_top {
+            display: flex;
+            align-items: center;
+            .my_information_data_left_top_id {
+              font-style: italic;
+              // padding: 2px 31px;
+              font-size: 12px;
+              text-align: center;
+              line-height: 16px;
+              font-weight: bold;
+              color: #ffffff;
+              width: 22px;
+              height: 16px;
+              background: linear-gradient(270deg, #b2ccca 0%, #7a9d9b 100%);
+              border-radius: 8px;
+            }
+            .my_information_data_left_top_userid {
+              margin: 0 5px;
+              color: #999999;
+              font-size: 12px;
+            }
+          }
+          .my_information_data_left_top_icon {
+            width: 10px;
+            height: 10px;
+          }
+
+          .my_information_data_left_bottom {
+            height: 17px;
+            font-size: 12px;
+            font-weight: 400;
+            color: #444444;
+            line-height: 17px;
+            margin-top: 10px;
+          }
+        }
+        .my_information_data_right {
+          flex: 1;
+          .my_information_data_right_top {
+            display: flex;
+            align-items: center;
+            .my_information_data_right_top_product_name {
+              height: 17px;
+              font-size: 12px;
+              font-weight: 400;
+              color: #444444;
+              line-height: 17px;
+            }
+          }
+
+          .my_information_data_right_bottom {
+            // width: 101px;
+            height: 17px;
+            font-size: 12px;
+            font-weight: 400;
+            color: #444444;
+            line-height: 17px;
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+  .my_tool {
+    // height: 195px;
+    margin: 0 auto;
+    width: 343px;
+    margin-top: 10px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+}
+.van-dialog__footer {
+  display: none;
+}

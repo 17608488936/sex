@@ -1,0 +1,47 @@
+View {
+  box-sizing: border-box;
+}
+.page {
+  width: 375px;
+  min-height: 100vh;
+  background: #f8f8f8;
+  border-radius: 0px 0px 0px 0px;
+  padding: 16px 16px;
+  box-sizing: border-box;
+}
+
+.item-wrapper {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.item {
+  width: 100%;
+  height: 108px;
+  border-radius: 0px 0px 0px 0px;
+  padding: 12px 12px;
+  display: flex;
+  image {
+    width: 84px;
+    height: 84px;
+    border-radius: 5px 5px 5px 5px;
+    margin-right: 16px;
+  }
+  .item-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .checkout-box {
+      font-size: 25px;
+      .checkout-text {
+        font-size: 14px !important;
+      }
+    }
+  }
+  .title {
+    font-weight: 500;
+    font-size: 15px;
+    color: #222222;
+    line-height: 22px;
+  }
+}

@@ -1,0 +1,183 @@
+.detail {
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+  padding-top: 25px;
+  background-image: url(../../../assets/images/common/mb.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  .detail_info {
+    display: flex;
+    align-items: center;
+    .detail_info_user_logo {
+      margin: 0 10px;
+      image {
+        width: 56px;
+        height: 56px;
+      }
+    }
+    .detail_info_text {
+      .detail_info_text_username {
+        font-size: 19px;
+        font-weight: 600;
+        color: #111111;
+        line-height: 26px;
+      }
+      .detail_info_text_nikename {
+        font-size: 13px;
+        font-weight: 400;
+        color: #666666;
+        line-height: 18px;
+      }
+    }
+  }
+  .detail_count {
+    display: flex;
+    margin-top: 16px;
+    .detail_count_data_active {
+      border-right: 1px solid #ccc;
+    }
+    .detail_count_data {
+      flex: 1;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      .content_count {
+        font-size: 24px;
+        font-weight: bold;
+        color: #111111;
+        line-height: 28px;
+        .content_count_text {
+          font-size: 15px;
+          font-weight: 400;
+          color: #111111;
+          line-height: 21px;
+        }
+      }
+      .content_content_count {
+        font-size: 13px;
+        font-weight: 400;
+        color: #999999;
+        line-height: 18px;
+      }
+      .fan_count {
+        font-size: 24px;
+        font-weight: bold;
+        color: #111111;
+        line-height: 28px;
+        Text {
+          font-size: 16px;
+        }
+      }
+      .fan_text {
+        font-size: 13px;
+        font-weight: 400;
+        color: #999999;
+        line-height: 18px;
+      }
+    }
+    .content {
+      // border-right: 1px solid #ccc;
+    }
+    .fan {
+    }
+  }
+  .detail-data_overview {
+    margin-top: 20px;
+    .data_overview_title {
+      display: flex;
+      justify-content: space-between;
+      .data_overview_title_left {
+        font-size: 16px;
+        font-weight: 500;
+        color: #222222;
+        line-height: 22px;
+      }
+      .data_overview_title_right {
+        font-size: 13px;
+        font-weight: 400;
+        color: #666666;
+        line-height: 18px;
+      }
+    }
+    .data_overview_countbox {
+      margin-top: 15px;
+      width: 343px;
+      margin-bottom: 40px;
+      // height: 250px;
+      background: #ffffff;
+      border-radius: 15px;
+      border: 1px solid #ffffff;
+      backdrop-filter: blur(10px);
+      .data_overview_countbox_btn {
+        display: flex;
+        padding-top: 18px;
+
+        button:nth-child(1) {
+          margin-left: 18px;
+        }
+        button {
+          margin: 0;
+          width: 78px;
+          height: 30px;
+          border-radius: 30px;
+          background: white;
+          border: 1px solid #dddddd;
+          line-height: 30px;
+          font-size: 14px;
+          font-weight: 400;
+          color: #666666;
+          margin-left: 10px;
+        }
+        .action {
+          background: #000;
+          color: white;
+        }
+      }
+      .data_overview_countbox_data {
+        padding-top: 15px;
+        .type-btn {
+          margin-left: 16px;
+          width: 56px;
+          height: 24px;
+          background: #e6edee;
+          border-radius: 11px 11px 11px 11px;
+          text-align: center;
+          font-weight: 500;
+          font-size: 13px;
+          color: #405f5d;
+          line-height: 24px;
+        }
+        .Grid {
+        }
+        .GridItem {
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .GridItem_text {
+            font-size: 11px;
+            font-weight: 400;
+            color: #999999;
+          }
+          .GridItem_count {
+            font-size: 24px;
+            font-weight: bold;
+            color: #111111;
+          }
+        }
+      }
+    }
+  }
+}
+.max_width {
+  padding-top: 45px;
+  margin-bottom: 10px;
+  .detail_count {
+    margin-top: 20px;
+  }
+}

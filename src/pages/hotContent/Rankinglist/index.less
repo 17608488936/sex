@@ -1,0 +1,254 @@
+.hotIndex {
+  background: #f6f6f6;
+  box-sizing: border-box;
+}
+
+.hotIndex_top_videoindex {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 7px;
+  .hotIndex_top_videoindex_text {
+    margin-top: 13px;
+    color: white;
+    .hotIndex_top_videoindex_text_title {
+      font-size: 29px;
+      font-weight: 600;
+      color: #f8ecdb;
+      line-height: normal;
+      background: linear-gradient(90deg, #fffcf5 0%, #f8ecdb 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .hotIndex_top_videoindex_text_content {
+      font-size: 12px;
+      font-weight: 300;
+      color: #f8ecdb;
+      line-height: normal;
+    }
+  }
+  .hotIndex_top_videoindex_img {
+    image {
+      width: 114px;
+      height: 101px;
+    }
+  }
+}
+.tab-ranking-container {
+  padding: 0 16px 23px;
+}
+.tab-ranking-wrap {
+  display: flex;
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  .tab-ranking-item {
+    flex-shrink: 0;
+    padding: 5px 11px;
+    border-radius: 27px;
+    background-color: rgba(164, 164, 164, 0.15);
+    color: #c7c7c7;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 10px;
+  }
+  .tab-ranking-item-active {
+    background: #f8ecdb;
+    color: #000;
+  }
+}
+.ranking-filter--container {
+  // padding-bottom: 115px;
+}
+.ranking-filter-wrap {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px 24px;
+  box-sizing: border-box;
+  .ranking-filter-time-wrap {
+    display: flex;
+    align-items: center;
+    .ranking-filter-time-tab-wrap {
+      background-color: rgba(164, 164, 164, 0.15);
+      color: #c7c7c7;
+      border-radius: 34px;
+      display: flex;
+      .ranking-filter-time-tab-item {
+        padding: 3px 8px;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        border-radius: 34px;
+      }
+      .ranking-filter-time-tab-item-active {
+        background: #000;
+        color: #fff;
+      }
+    }
+  }
+  .ranking-filter-select {
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    .ranking-filter-select-text {
+      text-align: center;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-right: 8px;
+    }
+    .ranking-filter-select-allow {
+      font-size: 12px;
+      transform: rotate(90deg);
+    }
+  }
+  .ranking-filter-publish-select {
+  }
+}
+
+.hotIndex_dataIndex {
+  // margin-top: -130px;
+  // background-color: #999999;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding: 0 8px;
+  box-sizing: border-box;
+  .hotIndex_dataindex_item {
+    padding: 20px 16px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-top: 20px;
+    .index {
+      width: 24px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-right: 24px;
+      flex-shrink: 0;
+      image {
+        width: 24px;
+        height: 24px;
+      }
+    }
+    .imagebox {
+      margin: 0 5px;
+      flex-shrink: 0;
+      image {
+        width: 40px;
+        height: 71px;
+        border-radius: 5px;
+      }
+    }
+    .textbox {
+      flex: 1;
+      min-width: 0;
+      .title {
+        color: #222;
+        // text-align: center;
+        font-family: 'SF Pro Text';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px;
+      }
+      .textbox-desc {
+        margin-top: 4px;
+        color: #999;
+        font-family: 'PingFang SC';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        // .name {
+
+        // }
+        // .address {
+        //   font-size: 13px;
+        //   font-weight: 400;
+        //   color: #888888;
+        //   line-height: 18px;
+        // }
+      }
+    }
+    .hot {
+      width: 80px;
+      text-align: right;
+      font-size: 16px;
+      font-weight: 500;
+      color: #caa577;
+      line-height: 22px;
+    }
+  }
+  .item_one {
+    background: 0;
+    margin-top: 0;
+  }
+  .hotIndex_dataIndex_one {
+    width: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, #ffffff 100%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    .hotIndex_dataIndex_one_linear {
+      flex: 1;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 9px 16px;
+      .hotIndex_dataIndex_one_linear_1 {
+        font-size: 13px;
+        font-weight: 400;
+        color: #eeeeee;
+        line-height: 18px;
+        width: 48px;
+      }
+      .hotIndex_dataIndex_one_linear_2 {
+        font-size: 13px;
+        font-weight: 400;
+        color: #eeeeee;
+        line-height: 18px;
+        flex: 1;
+      }
+      .hotIndex_dataIndex_one_linear_3 {
+        font-size: 13px;
+        font-weight: 400;
+        color: #eeeeee;
+        line-height: 18px;
+        width: 80px;
+        text-align: right;
+      }
+    }
+  }
+}
+.ranking-desc {
+  color: #999;
+  text-align: center;
+  font-family: 'PingFang SC';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 24px 0;
+}
+
+.custom-image .van-empty__image {
+  width: 85px;
+  height: 85px;
+}

@@ -1,0 +1,65 @@
+// 全屏背景渐变
+.h100-linear-gradient {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #d9e1e2 0%, #eef3f5 100%);
+}
+
+.wrap-container-space-16 {
+  padding-left: 16px;
+  padding-right: 16px;
+  box-sizing: border-box;
+  // padding-bottom: 20px;
+}
+
+.none {
+  display: none;
+  height: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.scroll-x-auto {
+  white-space: nowrap;
+  overflow-x: auto;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-18 {
+  margin-bottom: 18px;
+}
+
+// css闪烁光标
+.css-cursor {
+  width: 2px;
+  height: 13px;
+  display: inline-block;
+  background: #000;
+  animation: 1s van-cursor-flicker infinite;
+}
+@keyframes van-cursor-flicker {
+  from {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.custom-line {
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
